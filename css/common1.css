@@ -1,0 +1,300 @@
+@charset "UTF-8";
+body {
+	color: #000000;
+	font-size: 15px;
+	line-height: 1.8;
+	letter-spacing: 1px;
+	word-break: break-all;
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+/* header */
+header {
+	background-color: #18224B;
+}
+
+.header_inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.5%;
+}
+
+.header_logo {
+	width: 25%;
+	padding-left: 5%;
+}
+
+.header_logo img {
+	width: 100%;
+	height: 100%;
+}
+
+.header_nav {
+	width: 80%;
+}
+
+.header_nav ul {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.header_nav ul li {
+	padding: 0 5%;
+	border-right: solid 3px #FFFFFF;
+	font-weight: bold;
+	font-size: 24px;
+	text-align: center;
+}
+
+.header_nav ul li:last-child {
+	border-right: none;
+}
+
+.header_nav ul li a {
+	color: #FFFFFF;
+}
+
+.header_nav ul li a:hover {
+	opacity: 0.8;
+	color: #75A9FF;
+}
+
+header .drawer {
+	visibility: hidden;
+}
+
+/* section */
+.section {
+	position: relative;
+	margin: 5% 0;
+}
+
+.inner {
+	width: 80%;
+	margin: 0 auto;
+}
+
+/* btn */
+.btn {
+	width: 15%;
+	margin: 0 auto;
+	line-height: 4;
+}
+
+.btn a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: #000000;
+	color: #FFFFFF;
+	font-weight: 700;
+	font-size: 1.15rem;
+	text-align: center;
+}
+
+/* footer */
+footer {
+	padding: 2% 0 1%;
+	background-color: #18224B;
+	color: #FFFFFF;
+}
+
+.footer_logo {
+	width: 20%;
+	height: auto;
+	margin: 0 auto;
+	margin-bottom: 1.5%;
+}
+
+.footer_logo a {
+	display: block;
+}
+
+.footer_logo img {
+	width: 100%;
+}
+
+.footer_list {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 2%;
+}
+
+.footer_item {
+	margin-right: 2.5%;
+	padding-right: 2.5%;
+	border-right: solid 3px #FFFFFF;
+	font-size: 16px;
+	line-height: 1;
+}
+
+.footer_item:last-child {
+	margin-right: 0;
+	padding-right: 0;
+	border-right: none;
+}
+
+.footer_item a {
+	color: #FFFFFF;
+}
+
+.footer_item a:hover {
+	color: #75A9FF;
+}
+
+.footer_sns {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 1%;
+}
+
+.footer_sns .sns_icon1 {
+	margin-right: 2%;
+}
+
+.footer_sns .sns_icon1, .sns_icon2 {
+	transition: 0.2s;
+}
+
+.footer_sns .sns_icon1:hover, .sns_icon2:hover {
+	transform: translateY(-5px);
+	transition: 0.2s;
+}
+
+.footer_sns .sns_icon1 a, .sns_icon2 a {
+	color: #FFFFFF;
+	font-size: 2.5rem;
+}
+
+.footer_txt {
+	display: block;
+	text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+	.header_logo {
+		margin-top: 1%;
+	}
+
+	.header_nav ul li {
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.header_logo {
+		margin-top: 1%;
+	}
+
+	.header_nav ul li {
+		font-size: 16px;
+	}
+}
+
+
+@media screen and (max-width: 480px) {
+	.header_logo {
+		width: 60%;
+		margin-top: 3%;
+		margin-left: 2%;
+	}
+
+	.footer_logo {
+		width: 50%;
+	}
+
+	.footer_item {
+		font-size: 12px;
+	}
+
+	.footer_sns .sns_icon1, .sns_icon2 {
+		margin: 0 5%;
+	}
+
+	.footer_txt {
+		font-size: 8px;
+	}
+
+
+	header .drawer {
+		visibility: visible;
+		position: absolute;
+		top: 15px;
+		right: 15px;
+		z-index: 100;
+		width: 24px;
+		border-top: solid 4px #FFFFFF;
+		cursor: pointer;
+	}
+
+	header .drawer::before, header .drawer::after {
+		display: block;
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 24px;
+		height: 4px;
+		background: #FFFFFF;
+		content: "";
+		transition: all 0.5s;
+	}
+
+	header .drawer::before {
+		top: 6px;
+	}
+
+	header .drawer::after {
+		top: 15px;
+	}
+
+	header .header_nav {
+		display: none;
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 50;
+		width: 100%;
+		height: 100%;
+		background: #000000;
+	}
+
+	header .header_nav ul {
+		display: block;
+		margin: 25% 0;
+	}
+
+	header .header_nav ul li {
+		margin: 5% auto;
+		border-right: unset;
+	}
+
+	header .header_nav ul li a {
+		font-size: 1.75rem;
+		line-height: 3;
+	}
+
+	body.nav-open header .drawer {
+		border-top: 0;
+	}
+
+	body.nav-open header .drawer::before {
+		top: 9px;
+		transform: rotate(-45deg);
+	}
+
+	body.nav-open header .drawer::after {
+		top: 9px;
+		transform: rotate(45deg);
+	}
+}

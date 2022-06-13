@@ -1,0 +1,389 @@
+.top_bg {
+	opacity: 0.7;
+	clip-path: polygon(0% 0%, 100% 0%, 60% 100%,0% 100%);
+	width: 100%;
+	height: 60vh;
+	background-image: url(../img/会社概要.jpeg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+h3::first-letter {
+	font-size: 80px;
+}
+
+.about_section {
+	position: relative;
+	width: 100%;
+	margin: unset;
+}
+
+.company_txt {
+	width: 25%;
+	margin-top: 5%;
+	margin-left: 10%;
+	border-bottom: #70ACCE solid 5px;
+	font-size: 48px;
+	line-height: 1;
+	font-family: Zen Antique Soft;
+}
+
+.about_wrapper {
+	width: 90%;
+	line-height: 50px;
+}
+
+.about_list {
+	width: 100%;
+	margin: 5% 0;
+	margin-bottom: 15%;
+}
+
+.about_item {
+	display: flex;
+	width: 60%;
+	margin-left: 25%;
+	border-bottom: 1px solid #000000;
+	text-align: left;
+}
+
+.about_item span {
+	width: 20%;
+	margin-left: 10%;
+	font-weight: bold;
+	font-size: 1.25rem;
+	text-align: left;
+}
+
+
+.about_item p {
+	width: 50%;
+}
+
+.member_section {
+	position: relative;
+	margin-bottom: 15%;
+}
+
+.company_mem_all {
+	display: flex;
+	justify-content: space-evenly;
+	width: 70%;
+	margin: 5% auto;
+	padding: 2%;
+	border: solid 1px #000000;
+	box-shadow: 20px 20px 30px #DDDDDD;
+}
+
+.mem_img {
+	width: 150px;
+	height: 150px;
+	margin: auto 2%;
+	margin-left: 5%;
+	border: 1px solid #000000;
+	border-radius: 50%;
+	background-image: url(../img/代表.png);
+	background-repeat: no-repeat;
+}
+
+.company_mem_per {
+	width: 70%;
+	margin-left: 10%;
+}
+
+.company_mem_ttl {
+	position: relative;
+	margin-bottom: 2.5%;
+	font-size: 32px;
+	line-height: 1;
+}
+
+.company_mem_name {
+	margin-bottom: 3%;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.company_mem_txt {
+	font-size: 1.1rem;
+	line-height: 1.8;
+}
+
+.bg_box1 {
+	clip-path: polygon(0% 100%, 0% 0%, 100% 100%);
+	position: absolute;
+	top: 18%;
+	z-index: -999;
+	width: 74%;
+	height: 335px;
+	background-color: #E6EEFF;
+}
+
+.bg_box2 {
+	clip-path: polygon(0% 100%, 0% 0%, 100% 100%);
+	position: absolute;
+	top: 63.1%;
+	z-index: -999;
+	width: 74%;
+	height: 335px;
+	background-color: #E6EEFF;
+}
+
+
+.about_acc_map_wrapper {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10%;
+}
+
+.about_acc_map {
+	clip-path: polygon(0% 0%, 70% 0%, 90% 100%,0% 100%);
+	width: 60%;
+	height: 52.5vh;
+}
+
+.about_acc_map iframe {
+	width: 100%;
+	height: 100%;
+	margin: 3% 0;
+	margin-left: 17%;
+}
+
+.about_acc_item {
+	margin-bottom: 7.5%;
+}
+
+.about_acc_ttl {
+	margin-bottom: 2.5%;
+	font-size: 1.5rem;
+}
+
+.about_acc_txt {
+	font-size: 1.1rem;
+}
+
+.about_acc_list {
+	margin-top: 15%;
+}
+
+@media screen and (max-width: 1024px) {
+	.top_bg {
+		height: 30vh;
+	}
+
+	.top_text {
+		top: 10%;
+	}
+
+	.header_logo {
+		margin-top: 1%;
+	}
+
+	.header_nav ul li {
+		font-size: 16px;
+	}
+
+	.company_txt {
+		font-size: 28px;
+	}
+
+	.bg_box1 {
+		clip-path: polygon(0% 100%, 0% 0%, 100% 100%);
+		position: absolute;
+		top: 14%;
+		z-index: -999;
+		width: 74%;
+		height: 400px;
+		background-color: #E6EEFF;
+	}
+
+	.bg_box2 {
+		clip-path: polygon(0% 100%, 0% 0%, 100% 100%);
+		position: absolute;
+		top: 60%;
+		z-index: -999;
+		width: 74%;
+		height: 400px;
+		background-color: #E6EEFF;
+	}
+
+	.about_acc_map {
+		clip-path: polygon(0% 0%, 70% 0%, 90% 100%,0% 100%);
+		width: 60%;
+		height: 30vh;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	h3::first-letter {
+		font-size: 48px;
+	}
+
+	.service_txt {
+		font-size: 16px;
+	}
+
+	.company_txt {
+		width: 40%;
+	}
+
+	.about_item {
+		width: 80%;
+		margin: unset;
+		margin-left: 16%;
+	}
+
+	.about_item p {
+		margin: unset;
+		margin-left: 10%;
+	}
+
+	.bg_box1 {
+		clip-path: polygon(0% 100%, 0% 0%, 100% 100%);
+		position: absolute;
+		top: 8.3%;
+		z-index: -999;
+		width: 74.5%;
+		height: 480px;
+		background-color: #E6EEFF;
+	}
+
+	.bg_box2 {
+		clip-path: polygon(0% 100%, 0% 0%, 100% 100%);
+		position: absolute;
+		top: 56%;
+		z-index: -999;
+		width: 74.5%;
+		height: 480px;
+		background-color: #E6EEFF;
+	}
+
+		.mem_img {
+		width: 150px;
+		height: 150px;
+		margin: 5% 0 10% 5%;
+		background-position: center;
+		;
+	}
+
+	.about_acc_map {
+		clip-path: polygon(0% 0%, 70% 0%, 90% 100%,0% 100%);
+		width: 60%;
+		height: 25vh;
+	}
+
+
+	.about_acc_ttl {
+		margin-bottom: 2.5%;
+		font-size: 1.2rem;
+	}
+
+	.about_acc_txt {
+		font-size: 0.8rem;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.top_bg {
+		height: 20vh;
+	}
+
+	.header_logo {
+		width: 60%;
+		margin-top: 3%;
+		margin-left: 2%;
+	}
+
+	.top_text {
+		z-index: 50;
+		width: 60%;
+		font-size: 32px;
+	}
+	.top_text h1 {
+		z-index: 50;
+	}
+
+	h3::first-letter {
+		font-size: 20px;
+	}
+
+	.company_txt {
+		width: 30%;
+		font-size: 12px;
+	}
+
+	.about_item span {
+		font-size: 10px;
+	}
+
+	.about_item {
+		width: 90%;
+		margin: auto;
+		font-size: 10px;
+	}
+	.about_item p {
+		width: 80%;
+		margin: auto;
+		margin-left: 10%;
+		font-size: 10px;
+	}
+
+	.about_list {
+		margin-left: 5%;
+	}
+
+	.company_mem_all {
+		flex-direction: column;
+		width: 85%;
+	}
+
+	.mem_img {
+		width: 120px;
+		height: 120px;
+		margin: 5% 0 10% 5%;
+		background-position: center;
+		;
+	}
+	.company_mem_txt {
+		width: 120%;
+	}
+
+	.bg_box1 {
+		clip-path: polygon(0% 100%, 0% 0%, 100% 100%);
+		position: absolute;
+		top: 3%;
+		left: 5%;
+		z-index: -999;
+		width: 89%;
+		height: 690px;
+		background-color: #E6EEFF;
+	}
+
+	.bg_box2 {
+		clip-path: polygon(0% 100%, 0% 0%, 100% 100%);
+		position: absolute;
+		top: 52%;
+		left: 5%;
+		z-index: -999;
+		width: 89%;
+		height: 690px;
+		background-color: #E6EEFF;
+	}
+	.about_acc_map {
+		clip-path: polygon(0% 0%, 70% 0%, 90% 100%,0% 100%);
+		width: 60%;
+		height: 15vh;
+	}
+
+
+	.about_acc_ttl {
+		margin-bottom: 2.5%;
+		font-size: 16px;
+	}
+
+	.about_acc_txt {
+		width: 75%;
+		font-size: 8px;
+	}
+}

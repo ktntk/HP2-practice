@@ -14,7 +14,7 @@ h3::first-letter {
 }
 
 .contact_top {
-	width: 25%;
+	width: 30%;
 	margin-top: 5%;
 	margin-left: 10%;
 	border-bottom: #70ACCE solid 5px;
@@ -168,6 +168,10 @@ h3::first-letter {
 		font-size: 24px;
 	}
 
+	.header_nav ul li {
+		font-size: 12px;
+	}
+
 	h3::first-letter {
 		font-size: 50px;
 	}
@@ -183,22 +187,22 @@ h3::first-letter {
 }
 
 @media screen and (max-width: 480px) {
-		.header_logo {
+	.header_logo {
 		width: 60%;
 		margin-top: 3%;
 		margin-left: 2%;
 	}
-		.top_bg {
+	.top_bg {
 		height: 25vh;
 	}
 	.top_text {
-		width:80%;
 		z-index: 50;
+		width: 80%;
 		font-size: 42px;
 	}
-		.top_text span{
-		width:60%;
+	.top_text span {
 		z-index: 50;
+		width: 60%;
 		font-size: 28px;
 	}
 	.top_text h1 {
@@ -209,12 +213,12 @@ h3::first-letter {
 		font-size: 32px;
 	}
 
-	.contact_txt{
+	.contact_txt {
 		width: 95%;
 		font-size: 16px;
 	}
 
-	.contact_btn{
+	.contact_btn {
 		margin-left: 40%;
 	}
 }

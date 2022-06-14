@@ -14,7 +14,7 @@ h3::first-letter {
 }
 
 .news_txt {
-	width: 25%;
+	width: 30%;
 	margin-top: 5%;
 	margin-left: 10%;
 	border-bottom: #70ACCE solid 5px;
@@ -137,6 +137,10 @@ h3::first-letter {
 @media screen and (max-width: 768px) {
 	h3::first-letter {
 		font-size: 48px;
+	}
+
+	.header_nav ul li {
+		font-size: 12px;
 	}
 
 	.top_txt {

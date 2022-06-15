@@ -169,12 +169,16 @@ h3::first-letter {
 
 	.top_text {
 		z-index: 50;
-		font-size: 48px;
+		font-size: 36px;
+	}
+
+	.top_text h1 {
+		font-size: 36px;
 	}
 
 	.top_text span {
 		z-index: 50;
-		font-size: 28px;
+		font-size: 20px;
 	}
 
 	h3::first-letter {
@@ -186,7 +190,7 @@ h3::first-letter {
 		margin: 0 auto;
 	}
 	.news_txt {
-		width: 30%;
+		width: 40%;
 		font-size: 16px;
 	}
 

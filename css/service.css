@@ -261,12 +261,16 @@ h3::first-letter {
 		z-index: 50;
 	}
 
+	.top_text span {
+		font-size: 20px;
+	}
+
 	h3::first-letter {
 		font-size: 32px;
 	}
 
 	.service_txt {
-		width: 30%;
+		width: 40%;
 		font-size: 16px;
 	}
 

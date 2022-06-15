@@ -504,8 +504,9 @@ p::first-letter {
 	}
 
 	.news p {
+		width: 90%;
 		margin: unset;
-		margin-left: 5%;
+		margin-left: 10%;
 	}
 
 	.box {

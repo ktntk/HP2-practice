@@ -329,10 +329,14 @@ h3::first-letter {
 	.top_text {
 		z-index: 50;
 		width: 60%;
-		font-size: 32px;
+		font-size: 36px;
 	}
 	.top_text h1 {
 		z-index: 50;
+	}
+
+	.top_text span {
+		font-size: 20px;
 	}
 
 	h3::first-letter {
@@ -340,7 +344,7 @@ h3::first-letter {
 	}
 
 	.company_txt {
-		width: 30%;
+		width: 40%;
 		font-size: 12px;
 	}
 	.about_wrapper {
@@ -415,16 +419,29 @@ h3::first-letter {
 		height: 690px;
 		background-color: #E6EEFF;
 	}
-	.about_acc_map {
-		clip-path: polygon(0% 0%, 70% 0%, 90% 100%,0% 100%);
-		width: 60%;
-		height: 15vh;
+
+	.about_acc_map_wrapper{
+		display: block;
 	}
 
+	.about_acc_map {
+		clip-path: unset;
+		width:75%;
+		}
+
+		.about_acc_item{
+			margin-left: 15%;
+			margin-bottom: 5%;
+		}
+
+		.about_acc_list{
+			margin-top: 5%;
+			line-height: 1.4;
+		}
 
 	.about_acc_ttl {
-		margin-bottom: 2.5%;
 		font-size: 16px;
+		margin: unset;
 	}
 
 	.about_acc_txt {

@@ -10,7 +10,7 @@
 }
 
 h3::first-letter {
-	font-size: 70px;
+	font-size: 80px;
 }
 
 .contact_top {
@@ -39,7 +39,6 @@ h3::first-letter {
 	margin-top: 5%;
 	font-size: 18px;
 	line-height: 1.8;
-	text-align: center;
 }
 
 .contact_form {
@@ -146,11 +145,6 @@ h3::first-letter {
 		margin-top: 5%;
 		font-size: 16px;
 		line-height: 1.8;
-		text-align: center;
-	}
-
-	.contact_form_box1, .contact_form_box2 {
-		height: 3vh;
 	}
 
 	.contact_txtarea {
@@ -176,13 +170,16 @@ h3::first-letter {
 		font-size: 50px;
 	}
 
+	.contact_form_box1, .contact_form_box2 {
+		height: 4vh;
+	}
+
 	.contact_txt {
 		width: 80%;
 		margin: auto;
 		margin-top: 5%;
 		font-size: 24px;
 		line-height: 1.8;
-		text-align: center;
 	}
 }
 
@@ -193,17 +190,17 @@ h3::first-letter {
 		margin-left: 2%;
 	}
 	.top_bg {
-		height: 25vh;
+		height: 20vh;
 	}
 	.top_text {
 		z-index: 50;
 		width: 80%;
-		font-size: 42px;
+		font-size: 36px;
 	}
 	.top_text span {
 		z-index: 50;
 		width: 60%;
-		font-size: 28px;
+		font-size: 20px;
 	}
 	.top_text h1 {
 		z-index: 50;
@@ -213,9 +210,24 @@ h3::first-letter {
 		font-size: 32px;
 	}
 
+	.contact_top {
+		width: 40%;
+	}
+
+	.contact_form_ttl, .contact_form_ttl_ttl {
+		font-size: 12px;
+	}
+
 	.contact_txt {
 		width: 95%;
 		font-size: 16px;
+	}
+
+	.contact_form_box1, .contact_form_box2 {
+		width: 60%;
+		height: 3vh;
+		padding-left: 5px;
+		font-size: 0.8rem;
 	}
 
 	.contact_btn {

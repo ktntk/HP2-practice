@@ -1,8 +1,4 @@
 /* service */
-h3::first-letter {
-	font-size: 80px;
-}
-
 .service_section {
 	position: relative;
 	width: 80%;
@@ -14,13 +10,6 @@ h3::first-letter {
 	width: 100%;
 }
 
-.service_txt {
-	width: 30%;
-	border-bottom: #70ACCE solid 5px;
-	font-size: 48px;
-	line-height: 1;
-	font-family: Zen Antique Soft;
-}
 
 .service_detail {
 	width: 40%;
@@ -143,6 +132,7 @@ h3::first-letter {
 
 @media screen and (max-width: 1024px) {
 	.service_txt {
+		width: 37.5%;
 		font-size: 32px;
 	}
 
@@ -203,12 +193,9 @@ h3::first-letter {
 		width: 60%;
 	}
 
-	h3::first-letter {
-		font-size: 48px;
-	}
-
 	.service_txt {
-		font-size: 24px;
+		width: 40%;
+		font-size: 20px;
 	}
 	.service_detail {
 		width: 65%;
@@ -265,10 +252,6 @@ h3::first-letter {
 		font-size: 20px;
 	}
 
-	h3::first-letter {
-		font-size: 32px;
-	}
-
 	.service_txt {
 		width: 40%;
 		font-size: 16px;
@@ -276,6 +259,7 @@ h3::first-letter {
 
 	.service_detail {
 		width: 95%;
+		margin-top: 10%;
 	}
 
 	.service_wrapper {

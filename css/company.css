@@ -232,7 +232,7 @@ h3::first-letter {
 	}
 
 	.company_txt {
-		width: 40%;
+		width: 30%;
 	}
 
 	.about_wrapper {
@@ -340,12 +340,17 @@ h3::first-letter {
 	}
 
 	h3::first-letter {
-		font-size: 20px;
+		font-size: 28px;
 	}
 
 	.company_txt {
 		width: 40%;
-		font-size: 12px;
+		margin-top: 5%;
+		margin-left: 10%;
+		border-bottom: #70ACCE solid 5px;
+		font-size: 16px;
+		line-height: 1;
+		font-family: Zen Antique Soft;
 	}
 	.about_wrapper {
 		width: 90%;
@@ -420,28 +425,28 @@ h3::first-letter {
 		background-color: #E6EEFF;
 	}
 
-	.about_acc_map_wrapper{
+	.about_acc_map_wrapper {
 		display: block;
 	}
 
 	.about_acc_map {
 		clip-path: unset;
-		width:75%;
-		}
+		width: 75%;
+	}
 
-		.about_acc_item{
-			margin-left: 15%;
-			margin-bottom: 5%;
-		}
+	.about_acc_item {
+		margin-bottom: 5%;
+		margin-left: 15%;
+	}
 
-		.about_acc_list{
-			margin-top: 5%;
-			line-height: 1.4;
-		}
+	.about_acc_list {
+		margin-top: 5%;
+		line-height: 1.4;
+	}
 
 	.about_acc_ttl {
-		font-size: 16px;
 		margin: unset;
+		font-size: 16px;
 	}
 
 	.about_acc_txt {

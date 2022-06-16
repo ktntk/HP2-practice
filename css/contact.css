@@ -34,10 +34,10 @@ h3::first-letter {
 }
 
 .contact_txt {
-	width: 70%;
+	width: 85%;
 	margin: auto;
 	margin-top: 5%;
-	font-size: 18px;
+	font-size: 20px;
 	line-height: 1.8;
 }
 
@@ -47,7 +47,6 @@ h3::first-letter {
 }
 
 .contact_box {
-	display: flex;
 	flex-direction: column;
 	align-items: center;
 	margin-bottom: 5%;
@@ -58,14 +57,14 @@ h3::first-letter {
 }
 
 .contact_form_box1, .contact_form_box2 {
-	width: 60%;
-	height: 5vh;
+	width: 100%;
+	height: 4vh;
 	padding-left: 5px;
 	font-size: 1rem;
 }
 
 .contact_txtarea {
-	width: 60%;
+	width: 100%;
 	height: 20vh;
 	margin: auto;
 	padding: 5px;
@@ -74,7 +73,7 @@ h3::first-letter {
 
 .contact_form_ttl {
 	position: relative;
-	width: 60%;
+	width: 100%;
 	height: 100%;
 	font-weight: bold;
 	font-size: 18px;
@@ -83,9 +82,8 @@ h3::first-letter {
 
 .contact_form_ttl_ttl {
 	position: relative;
-	width: 60%;
+	width: 100%;
 	height: 100%;
-	margin-left: 20%;
 	font-weight: bold;
 	font-size: 18px;
 	text-align: start;
@@ -131,27 +129,13 @@ h3::first-letter {
 		font-size: 16px;
 	}
 
-	.news_txt {
-		font-size: 28px;
-	}
-
-	.news_side_wrapper {
-		width: 30%;
-	}
-
-	.contact_txt {
-		width: 70%;
-		margin: auto;
-		margin-top: 5%;
-		font-size: 16px;
-		line-height: 1.8;
+	.contact_form_box1, .contact_form_box2 {
+		height: 3vh;
+		font-size: 1rem;
 	}
 
 	.contact_txtarea {
-		width: 60%;
-		height: 10vh;
-		margin: auto;
-		padding: 5px;
+		height: 15vh;
 		font-size: 1rem;
 	}
 }
@@ -159,6 +143,7 @@ h3::first-letter {
 @media screen and (max-width: 768px) {
 	.contact_top {
 		width: 30%;
+		margin-top: 4.7%;
 		font-size: 24px;
 	}
 
@@ -170,16 +155,12 @@ h3::first-letter {
 		font-size: 50px;
 	}
 
-	.contact_form_box1, .contact_form_box2 {
-		height: 4vh;
-	}
-
 	.contact_txt {
 		width: 80%;
 		margin: auto;
 		margin-top: 5%;
-		font-size: 24px;
-		line-height: 1.8;
+		font-size: 18px;
+		line-height: 1.5;
 	}
 }
 
@@ -207,7 +188,15 @@ h3::first-letter {
 	}
 
 	h3::first-letter {
-		font-size: 32px;
+		font-size: 28px;
+	}
+
+	.contact_top {
+		width: 49.9%;
+		border-bottom: #70ACCE solid 5px;
+		font-size: 16px;
+		line-height: 1;
+		font-family: Zen Antique Soft;
 	}
 
 	.contact_top {
@@ -220,13 +209,17 @@ h3::first-letter {
 
 	.contact_txt {
 		width: 95%;
-		font-size: 16px;
+		font-size: 12px;
 	}
 
+
 	.contact_form_box1, .contact_form_box2 {
-		width: 60%;
 		height: 3vh;
-		padding-left: 5px;
+		font-size: 0.8rem;
+	}
+
+	.contact_txtarea {
+		height: 20vh;
 		font-size: 0.8rem;
 	}
 

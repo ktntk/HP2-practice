@@ -53,31 +53,32 @@
 			</ul>
 		</section>
 		<section class="contact section">
-			<div>
-				<h3 class="contact_top">Contact</h3>
-			</div>
-			<div class="inner">
-				<div class="contact_item">
-					<p class="contact_txt">ご依頼やご相談、サービスについてのご質問やご要望がございましたら、下記フォームよりお気軽にお問い合わせください。 （※は必須項目になります。）</p>
+				<div>
+					<h3 class="contact_top">Contact</h3>
 				</div>
-
-				
-				<form action="mail.php" class="contact_form" id="form" method="POST">
-					<div class="contact_box"> <label for="name" class="contact_form_ttl">お問い合わせ項目　※</label> <select class="contact_form_box1" name="subject" required="required">
-      <optgroup value="">
-        <option class="select_with" value="プルダウンメニューで問い合わせ内容を選択" hidden=""></option>
-        <option class="select_with" value="資料請求">資料請求</option>
-        <option class="select_with" value="企業登録">各種登録</option>
-        <option class="select_with" value="その他">その他</option>
-      </optgroup>
-    </select> </div>
-					<div class="contact_box"> 
-						<label for="name" class="contact_form_ttl">お名前（漢字）　※</label> 
-						<input type="text" class="contact_form_box2" name="" required="required"> 
+				<div class="inner">
+					<div class="contact_item">
+						<p class="contact_txt">ご依頼やご相談、サービスについてのご質問やご要望がございましたら、下記フォームよりお気軽にお問い合わせください。 （※は必須項目になります。）</p>
 					</div>
-					<div class="contact_box"> <label for="email" class="contact_form_ttl">メールアドレス　※</label> <input type="email" class="contact_form_box2" name="" required="required"> </div>
-					<div class="contact_box _area"> <label for="message" class="contact_form_ttl_ttl">お問い合わせ内容　※</label> <textarea name="message" class="contact_txtarea" id="message" required="required"></textarea> </div> <button type="submit" class="btn contact_btn">送信</button> </form>
-			</div>
+
+					
+					<form action="mail.php" class="contact_form" id="form" method="POST">
+						<div class="contact_box"> <label for="name" class="contact_form_ttl">お問い合わせ項目　※</label> 
+				<select class="contact_form_box1" name="subject" required="required">
+					<optgroup value="">
+						<option class="select_with" value="プルダウンメニューで問い合わせ内容を選択" hidden=""></option>
+						<option class="select_with" value="資料請求">資料請求</option>
+						<option class="select_with" value="企業登録">各種登録</option>
+						<option class="select_with" value="その他">その他</option>
+					</optgroup>
+				</select> </div>
+						<div class="contact_box"> 
+							<label for="name" class="contact_form_ttl">お名前（漢字）　※</label> 
+							<input type="text" class="contact_form_box2" name="" required="required"> 
+						</div>
+						<div class="contact_box"> <label for="email" class="contact_form_ttl">メールアドレス　※</label> <input type="email" class="contact_form_box2" name="" required="required"> </div>
+						<div class="contact_box _area"> <label for="message" class="contact_form_ttl_ttl">お問い合わせ内容　※</label> <textarea name="message" class="contact_txtarea" id="message" required="required"></textarea> </div> <button type="submit" class="btn contact_btn">送信</button> </form>
+				</div>
 		</section>
 		<!-- footer -->
 		<footer home_footer>

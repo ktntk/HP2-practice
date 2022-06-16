@@ -182,7 +182,15 @@ h3::first-letter {
 	}
 
 	h3::first-letter {
-		font-size: 32px;
+		font-size: 28px;
+	}
+
+	.news_title {
+		width: 49.9%;
+		border-bottom: #70ACCE solid 5px;
+		font-size: 16px;
+		line-height: 1;
+		font-family: Zen Antique Soft;
 	}
 
 	.news_wrapper {
@@ -208,6 +216,7 @@ h3::first-letter {
 
 	.news_side_wrapper {
 		width: 60%;
+		margin-right: 3%;
 	}
 
 	.news_side_wrapper a {

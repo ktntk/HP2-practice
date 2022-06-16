@@ -133,6 +133,18 @@ header .drawer {
 	font-weight: 700;
 }
 
+h3::first-letter {
+	font-size: 80px;
+}
+
+.section_title {
+	width: 40%;
+	border-bottom: #70ACCE solid 5px;
+	font-size: 48px;
+	line-height: 1;
+	font-family: Zen Antique Soft;
+}
+
 /* footer */
 footer {
 	padding: 2% 0 1%;
@@ -222,6 +234,18 @@ footer {
 		top: 10%;
 	}
 
+	h3::first-letter {
+		font-size: 80px;
+	}
+
+	.section_title {
+		width: 37.5%;
+		border-bottom: #70ACCE solid 5px;
+		font-size: 28px;
+		line-height: 1;
+		font-family: Zen Antique Soft;
+	}
+
 	.header_logo {
 		margin-top: 1%;
 	}
@@ -238,6 +262,18 @@ footer {
 
 	.header_nav ul li {
 		font-size: 12px;
+	}
+
+	h3::first-letter {
+		font-size: 48px;
+	}
+
+	.section_title {
+		width: 37.5%;
+		border-bottom: #70ACCE solid 5px;
+		font-size: 24px;
+		line-height: 1;
+		font-family: Zen Antique Soft;
 	}
 }
 
@@ -256,6 +292,19 @@ footer {
 		z-index: 50;
 		font-size: 48px;
 	}
+
+	h3::first-letter {
+		font-size: 28px;
+	}
+
+	.section_title {
+		width: 49.9%;
+		border-bottom: #70ACCE solid 5px;
+		font-size: 16px;
+		line-height: 1;
+		font-family: Zen Antique Soft;
+	}
+
 
 	header .drawer {
 		visibility: visible;

@@ -21,10 +21,8 @@
 
 .service_block_ricruit_img1 {
 	position: relative;
-	width: 50vh;
-	height: 50vh;
-	margin-top: 22%;
-	margin-left: 90%;
+	width: 25vh;
+	height: 25vh;
 	border: 1px solid #000000;
 	background: url(../img/採用.jpg) center center no-repeat;
 	background-size: cover;
@@ -40,10 +38,8 @@
 
 .service_block_ricruit_img2 {
 	position: relative;
-	width: 50vh;
-	height: 50vh;
-	margin-top: 22%;
-	margin-left: 140%;
+	width: 25vh;
+	height: 25vh;
 	border: 1px solid #000000;
 	background: url(../img/採用.jpg) center center no-repeat;
 	background-size: cover;
@@ -76,9 +72,8 @@
 	top: 35%;
 	right: -12.5%;
 	z-index: -999;
-	width: 100%;
-	width: 1200px;
-	height: 480px;
+	width: 110%;
+	height:75%;
 	background-color: #EDEDED;
 }
 
@@ -91,10 +86,8 @@
 
 .service_block_ricruit_img3 {
 	position: relative;
-	width: 50vh;
-	height: 50vh;
-	margin-top: 30%;
-	margin-left: 90%;
+	width: 25vh;
+	height: 25vh;
 	border: 1px solid #000000;
 	background: url(../img/投資家.jpg) center center no-repeat;
 	background-size: cover;
@@ -110,10 +103,8 @@
 
 .service_block_ricruit_img4 {
 	position: relative;
-	width: 50vh;
-	height: 50vh;
-	margin-top: 30%;
-	margin-left: 140%;
+	width: 25vh;
+	height: 25vh;
 	border: 1px solid #000000;
 	background: url(../img/投資家.jpg) center center no-repeat;
 	background-size: cover;
@@ -130,6 +121,26 @@
 	margin-bottom: 20%;
 }
 
+	.service_block_ricruit_img1 {
+		margin-top: 30%;
+		margin-left: 20%;
+	}
+
+	.service_block_ricruit_img2 {
+		margin-top: 30%;
+		margin-left: 35%;
+	}
+
+  .service_block_ricruit_img3 {
+		margin-top: 37%;
+		margin-left: 20%;
+	}
+
+	.service_block_ricruit_img4 {
+		margin-top: 37%;
+		margin-left: 35%;
+	}
+
 @media screen and (max-width: 1024px) {
 	.service_txt {
 		width: 37.5%;
@@ -140,48 +151,11 @@
 		width: 60%;
 	}
 
-	.service_box {
-		position: absolute;
-		top: 35%;
-		right: -12.5%;
-		z-index: -999;
-		width: 100%;
-		width: 1200px;
-		height: 450px;
-		background-color: #EDEDED;
-	}
-
 	.service_block_ricruit_img1, .service_block_ricruit_img2, .service_block_ricruit_img3, .service_block_ricruit_img4 {
 		width: 25vh;
 		height: 25vh;
 	}
 
-	.service_block_ricruit_img1, .service_block_ricruit_img3 {
-		width: 25vh;
-		height: 25vh;
-		margin: unset;
-		margin-top: 27%;
-		margin-left: 30%;
-	}
-
-	.service_block_ricruit_img2, .service_block_ricruit_img4 {
-		width: 25vh;
-		height: 25vh;
-		margin: unset;
-		margin-top: 27%;
-		margin-left: 50%;
-	}
-
-	.service_box {
-		position: absolute;
-		top: 35%;
-		right: -12.5%;
-		z-index: -999;
-		width: 100%;
-		width: 900px;
-		height: 480px;
-		background-color: #EDEDED;
-	}
 
 	.service_block_ricruit_text {
 		line-height: 1.5;

@@ -288,7 +288,7 @@ p::first-letter {
 
 	.box {
 		position: absolute;
-		top: 55%;
+		top: 50%;
 		left: 65%;
 		z-index: -999;
 		width: 120px;
@@ -302,7 +302,7 @@ p::first-letter {
 	}
 
 	.news p small {
-		font-size: 24px;
+		font-size: 22px;
 	}
 
 	.news_list li {
@@ -404,6 +404,10 @@ p::first-letter {
 		margin-bottom: -13%;
 	}
 
+	.news p small {
+		font-size: 18px;
+	}
+
 	.news_section {
 		margin-bottom: 8%;
 	}
@@ -416,7 +420,7 @@ p::first-letter {
 
 	.box {
 		position: absolute;
-		top: 60%;
+		top: 48%;
 		left: 50%;
 		z-index: -999;
 		width: 120px;
@@ -489,12 +493,12 @@ p::first-letter {
 	}
 
 	.top2_bg {
-		height: 26vh;
+		height: 27vh;
 		margin-top: 2%;
 	}
 
 	.top2_bg2 {
-		height: 25vh;
+		height: 24vh;
 		margin-top: -10%;
 	}
 
@@ -525,15 +529,20 @@ p::first-letter {
 		width: 90%;
 		margin: unset;
 		margin-left: 10%;
+		font-size: 18px;
 	}
+
+		.news p small {
+		font-size: 12px;
+}
 
 	.box {
 		position: absolute;
-		top: 25%;
+		top: 34%;
 		left: 15%;
 		z-index: -999;
 		width: 90px;
-		height: 50px;
+		height: 31px;
 		background-color: #D9D9D9;
 	}
 
@@ -576,7 +585,7 @@ p::first-letter {
 	}
 
 	.contents_left p small {
-		font-size: 16px;
+		font-size: 12px;
 	}
 
 	.contents_list li {

@@ -352,6 +352,20 @@ h3::first-letter {
 		line-height: 1;
 		font-family: Zen Antique Soft;
 	}
+
+.company_mem_ttl {
+	position: relative;
+	margin-bottom: 2.5%;
+	font-size: 22px;
+	line-height: 1;
+}
+
+.company_mem_name {
+	margin-bottom: 3%;
+	font-weight: bold;
+	font-size: 18px;
+}
+
 	.about_wrapper {
 		width: 90%;
 		line-height: 50px;

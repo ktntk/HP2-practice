@@ -203,7 +203,7 @@ h3::first-letter {
 	}
 
 	.news_date {
-		font-size: 12px;
+		font-size: 10px;
 	}
 
 	.news_item a {
@@ -211,7 +211,7 @@ h3::first-letter {
 	}
 
 	.news_side_inner p {
-		font-size: 10px;
+		font-size: 8px;
 	}
 
 	.news_side_wrapper {
